@@ -1,0 +1,17 @@
+title: Streamdata Gallery Meetups
+url: meetups.streamdata.gallery
+tag: Meetups
+markdown: kramdown
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
+github_user: streamdata-gallery
+github_repo: meetups
+github_branch: master
+collections:
+  listings:
+    output: true
+    permalink: /listings/:path/
+defaults:
+  - scope:
+      type: listings
+    values:
+      layout: listings
